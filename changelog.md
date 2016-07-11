@@ -1,19 +1,3 @@
-=== Front-end Editor ===
-
-Contributors:      iseulde, wordpressdotorg
-Tags:              front-end editor, inline editing
-Requires at least: 4.4
-Tested up to:      4.4
-Stable tag:        1.1.0
-License:           GPL-2.0+
-
-== Description ==
-
-Fork of [wp front-end editor](https://github.com/avryl/wp-front-end-editor/) for [l'Opendoc](https://github.com/sarahgarcin/lopendoc).
-
-
-== Changelog ==
-
 1.0.4
 
 * Fixed issue where you could not insert an image after uploading.
@@ -233,4 +217,3 @@ Fork of [wp front-end editor](https://github.com/avryl/wp-front-end-editor/) for
 0.1
 
 * Initial release
-
