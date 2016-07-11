@@ -114,6 +114,7 @@ tinymce.PluginManager.add( 'wpview', function( editor ) {
 			dom.bind( clipboard, 'beforedeactivate focusin focusout', _stop );
 			dom.bind( selected, 'beforedeactivate focusin focusout', _stop );
 
+
 			// select the hidden div
 			if ( isios ) {
 				editor.selection.select( clipboard );
