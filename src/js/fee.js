@@ -631,6 +631,9 @@
 			event.preventDefault();
 			save();
 		} );
+		$document.on( 'fee-save-post', function( event ) {
+			save();
+		});
 
 		$( '#wp-admin-bar-edit > a' ).on( 'click.fee', function( event ) {
 			event.preventDefault();

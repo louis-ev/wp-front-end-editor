@@ -1,5 +1,5 @@
 <?php
 
-/* Plugin Name: Front-end Editor */
+/* Plugin Name: Front-end Editor for l'Opendoc */
 
-require 'src/plugin.php';
+require 'build/plugin.php';

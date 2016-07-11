@@ -97,5 +97,5 @@ module.exports = function( grunt ) {
 	} );
 
 	grunt.registerTask( 'default', [ 'jshint' ] );
-	grunt.registerTask( 'build', [ 'clean:all', 'svn:checkout', 'clean:svn', 'copy', 'uglify', 'jsvalidate' ] );
+	grunt.registerTask( 'build', [ 'clean:all', 'copy', 'uglify', 'jsvalidate' ] );
 };
